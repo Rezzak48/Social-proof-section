@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  /* Colors */
+  /* Primary */
+  --magenta: hsl(300, 43%, 22%);
+  --pink: hsl(333, 80%, 67%);
+  /* Neutral */
+  --light-magenta: hsl(303, 10%, 53%);
+  --gray: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --body: 1.5rem;
+
+  --h1-size: 4.8rem;
+  --h1-letter-spacing: -0.175rem;
+  --h1-line-height: 4, 8rem;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: var(--body);
+}
