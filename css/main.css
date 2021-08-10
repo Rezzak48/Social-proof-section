@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -24,4 +26,13 @@
 body {
   font-family: "Spartan", sans-serif;
   font-size: var(--body);
+  background-color: var(--White);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  max-width: 1100px;
+  width: 100%;
 }
