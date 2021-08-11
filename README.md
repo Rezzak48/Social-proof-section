@@ -25,26 +25,28 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./DesignScreenshots/DesktopScreen.png)
-![](./DesignScreenshots/MobileVersion.png) -->
+![](./DesignScreenshots/DesktopScreen.png)
+![](./DesignScreenshots/MobileVersion.png)
 
 ### Links
 
-<!-- - Live Site URL: [Live Site URL:](linkHere)
-- Solution URL: [Solution URL:](linkHere) -->
+- Live Site URL: [Live Site URL:](https://flamboyant-meitner-595824.netlify.app/)
+- Solution URL: [Solution URL:](https://www.frontendmentor.io/solutions/social-proof-section-html-and-css-aD4UCkVeO)
 
 ## My process
 
 ### Built with
 
 <!-- Info -->
-<!-- - Semantic HTML5 markup
+
+- Semantic HTML5 markup
 - CSS custom properties
-- Flex box -->
+- Flex box
+- Desktop-first workflow
 
 ### What I learned
 
-<!-- I learned more about  -->
+I learned that using rem unit rather than px is really helpful, but that doesn't mean not paying attention to the size in all screen sizes, in fact sometimes I will have to even use media queries
 
 ## Author
 

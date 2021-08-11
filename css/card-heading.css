@@ -19,7 +19,6 @@
 }
 
 h1 {
-  /* font-size: clamp(var(--h1-s-size), 60rem, var(--h1-size)); */
   font-size: var(--h1-size);
   font-weight: 700;
   color: var(--magenta);
