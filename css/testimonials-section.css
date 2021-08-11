@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   justify-items: center;
+  gap: 1rem;
 }
 .testimonials article {
   background-color: var(--magenta);
@@ -57,8 +58,26 @@
   letter-spacing: -0.025rem;
 }
 
-@media (max-width: 1024px) {
-  /* .reviews {
+@media (max-width: 800px) {
+  .reviews {
     flex-direction: column;
-  } */
+    text-align: center;
+  }
+  .reviews-text {
+    margin-bottom: 6rem;
+  }
+  .reviews-stars .review:first-child {
+    margin-left: 0;
+  }
+  .reviews-stars .review:not(:last-child) {
+    margin-left: 0;
+  }
+  .testimonials {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .testimonials article {
+    max-width: none;
+  }
 }
