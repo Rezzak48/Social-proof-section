@@ -19,6 +19,7 @@
   --body: 1.5rem;
 
   --h1-size: 4.8rem;
+  --h1-s-size: 3.2rem;
   --h1-letter-spacing: -0.175rem;
   --h1-line-height: 4, 8rem;
 }
@@ -31,10 +32,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem 2.5rem;
-  background-image: url(../images/bg-pattern-top-desktop.svg),
-    url(../images/bg-pattern-bottom-desktop.svg);
-  background-repeat: no-repeat, no-repeat;
+  padding: 2.5rem;
+  background-image: url(../images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
 }
 main {
   max-width: 1100px;
